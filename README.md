@@ -1,7 +1,10 @@
-# Webpage
+# Web-Devlopment 
 
 
-1) Imagegall :- A simple Responsive Webpage using html+css+bootstrap
-2) Personal.html : - A Sites homepage Demo(only frontend)!!! 
+
+# FRONT-END :-
+
+  1) Imagegall :- A simple Responsive Webpage using html+css+bootstrap
+  2) Personal.html : - A Sites homepage Demo(only frontend)!!! 
 
 
