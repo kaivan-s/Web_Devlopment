@@ -1,0 +1,10 @@
+It is a simple TODO List project made with HTML,CSS and JQUERY !!!!
+
+    Here you can add Items and Delete them !! 
+    Main purpose was to demonstrate the use of animations and font-awesome library for using different fonts !!!!
+    
+    1) Plus sign to toggle the "Enter new todo" Form !!
+    2) Hover on the list to get the delete icon and delete that particular todo !!
+    3) click the todo to mark as completed that particular todo and click again to get back to normal !!
+    
+    
