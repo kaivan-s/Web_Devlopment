@@ -1,0 +1,32 @@
+<% include partials/header %>
+<div class="ui main text container segment">
+    <div class="ui huge header">Edit <%= blog.title %></div>
+
+    <!--Remember there is a different way to send put request from html form and it is shown below.-->
+    <form class="ui form" action="/blogs/<%= blog._id %>?_method=PUT" method="post">
+        <div class="field">
+            <label>Title</label>
+            <input type="text" name="Blogs[title]" value="<%= blog.title %>">
+        </div>
+        <div class="field">
+            <label>Image</label>
+            <input type="text" name="Blogs[image]" value="<%= blog.image %>">
+        </div>
+        <div class="field">
+            <label>Content</label>
+            <textarea name="Blogs[body]" cols="30" rows="10" ><%= blog.body %></textarea>
+        </div>
+        <div class="field">
+            <input class="ui violet basic button" type="Submit">
+            <input class="ui red basic button" type="Submit" value="Delete">
+        </div>
+
+
+
+    </form>
+
+</div>
+
+
+
+<% include partials/footer %>
